@@ -29,9 +29,9 @@ public abstract class Shape2{
 	}
 
 	public abstract double getArea();
-
+	
 	public abstract double getPerimeter();
-
+	
 	public String toString(){
 		if (filled){
 			return "A Shape with color of " + color + " and filled.";
